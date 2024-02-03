@@ -7,4 +7,25 @@ body{
   color: turquoise;
   a {color: beige;}
 }
+.palette {
+  width: 30px;
+  height: 420px;
+  background-color: #6c6969;
+  position: fixed;
+  top: 60;
+  left: 0;
+  padding: 20px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.color:hover {
+  border: 2px solid #000;
+}
 

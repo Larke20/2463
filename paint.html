@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+  <body>
+    <div class="palette">
+      <div class="color" style="background-color: black;"></div>
+      <div class="color" style="background-color: white;"></div>
+      <div class="color" style="background-color: red;"></div>
+      <div class="color" style="background-color: pink;"></div>
+      <div class="color" style="background-color: green;"></div>
+      <div class="color" style="background-color: blue;"></div>
+      <div class="color" style="background-color: turquoise;"></div>
+      <div class="color" style="background-color: orange;"></div>
+      <div class="color" style="background-color: yellow;"></div>
+      <div class="color" style="background-color: purple;"></div>
+      <div class="color" style="background-color: brown;"></div>
+      <!-- color pallete-->
+    </div>
+    <h1>Paint Tool</h1>
+    <p><a href="assignment1.html">Return to Examples</a></p>
+
+    <label for="brushSizeDropdown">brush size:</label>
+    <select id="brushSizeDropdown">
+      <option value="2">2</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="25">25</option>
+      <option value="30">30</option>
+      <!--note to self: add more brush sizes here-->
+    </select>
+    <button id="clearCanvasButton">Clear Canvas</button>
+      <script src="paint.js"></script> 
+  </body>
+
+</html>
